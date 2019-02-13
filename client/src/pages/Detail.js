@@ -20,8 +20,10 @@ class Detail extends Component {
 		responseTime: [],
 	};
 
+
 	componentDidMount() {
 		this.loadBlog();
+		// this.loadUsers()
 	}
 
 	loadBlog = () => {
@@ -160,7 +162,7 @@ class Detail extends Component {
 									<span className="p-1 text-uppercase font-weight-bold text-success ">
 										{this.state.userName[i]}{' '}
 									</span>
-									posted at 
+									posted at
 									<span className="text-danger p-2">
 										{moment(this.state.responseTime[i].date).format('LLL')}{' '}
 									</span>
