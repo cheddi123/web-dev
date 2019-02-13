@@ -21,14 +21,6 @@ class Css extends Component {
            
               <div>
               <h2 className="m-2"> In this video we will learn the basics of CSS and how to intergrate CSS to make our websites stand out.</h2>
-                {/* <h2 className="m-2">
-                  {" "}
-                  In this crash course we will cram as much about HTML that we
-                  can. If you are interested in learning HTML but know nothing,
-                  then you are in the right place. We will be creating a cheat
-                  sheet with all of the common HTML5 tags, attributes, semantic
-                  markup, etc.
-                </h2> */}
                 <br />
                 <p className="m-2">
                   {" "}
