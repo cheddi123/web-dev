@@ -13,7 +13,7 @@ class HTMLyoutubeMID extends React.Component {
     };
 
     return (
-      <YouTube videoId="qoSksQ4s_hg&t=2s" opts={opts} onReady={this._onReady} />
+      <YouTube videoId="UB1O30fR-EE" opts={opts} onReady={this._onReady} />
     );
   }
 
